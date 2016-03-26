@@ -1,0 +1,15 @@
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:ordering="together">
+        <objectAnimator
+            android:duration="500000"
+            android:propertyName="rotation"
+            android:repeatCount="-1"
+            android:valueFrom="0"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:valueTo="360" />
+    </set>
+</set>
+        

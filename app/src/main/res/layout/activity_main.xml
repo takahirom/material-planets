@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageFrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.takahirom.solarsystem.MainActivity">
+
+    <com.github.takahirom.solarsystem.ZoomImageView
+        android:id="@+id/solar_system"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/animation_planet_vector_drawable" />
+
+    <Button
+        android:id="@+id/button_live_wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Setting live wallpaper" />
+</LinearLayout>
