@@ -1,7 +1,24 @@
 
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:ordering="sequentially">
-    <set xmlns:android="http://schemas.android.com/apk/res/android"
+    <set
+        android:ordering="together">
+        <objectAnimator
+            android:duration="1000"
+            android:propertyName="scaleX"
+            android:interpolator="@android:anim/decelerate_interpolator"
+            android:valueFrom="0"
+            android:valueTo="0">
+        </objectAnimator>
+        <objectAnimator
+            android:duration="1000"
+            android:propertyName="scaleY"
+            android:interpolator="@android:anim/decelerate_interpolator"
+            android:valueFrom="0"
+            android:valueTo="0">
+        </objectAnimator>
+    </set>
+    <set
         android:ordering="together">
         <objectAnimator
             android:duration="1000"

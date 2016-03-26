@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_license) {
             final Notices notices = new Notices();
             notices.addNotice(new Notice("LicensesDialog", "http://psdev.de", "Copyright 2013 Philip Schiffer <admin@psdev.de>", new ApacheSoftwareLicense20()));
-
             notices.addNotice(new Notice("MikeOrtiz/TouchImageView", "https://github.com/MikeOrtiz/TouchImageView", "Copyright (c) 2012 Michael Ortiz", new MITLicense()));
             new LicensesDialog.Builder(this)
                     .setNotices(notices)

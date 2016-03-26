@@ -25,6 +25,7 @@ import android.os.Build;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Parcelable;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
@@ -62,6 +63,7 @@ public class ZoomImageView extends AppCompatImageView {
     // saved prior to the screen rotating.
     //
     private Matrix matrix, prevMatrix;
+    private Handler mHandler;
 
     private static enum State { NONE, DRAG, ZOOM, FLING, ANIMATE_ZOOM };
     private State state;
@@ -115,6 +117,7 @@ public class ZoomImageView extends AppCompatImageView {
 
     private void sharedConstructing(Context context) {
         super.setClickable(true);
+        mHandler = new Handler();
         this.context = context;
         mScaleDetector = new ScaleGestureDetector(context, new ScaleListener());
         mGestureDetector = new GestureDetector(context, new GestureListener());
@@ -1263,12 +1266,7 @@ public class ZoomImageView extends AppCompatImageView {
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     private void compatPostOnAnimation(Runnable runnable) {
-        if (VERSION.SDK_INT >= VERSION_CODES.JELLY_BEAN) {
-            postOnAnimation(runnable);
-
-        } else {
-            postDelayed(runnable, 1000/60);
-        }
+        mHandler.postDelayed(runnable, 1000/60);
     }
 
     private class ZoomVariables {

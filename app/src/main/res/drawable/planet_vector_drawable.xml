@@ -16,343 +16,532 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="@dimen/vector_size_x"
     android:height="@dimen/vector_size_y"
-    android:viewportHeight="660"
+    android:viewportHeight="770"
     android:viewportWidth="550">
 
-    <group
-        android:name="stars"
-        >
+    <group android:name="stars">
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 30 -183 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
-
-
-        <path
-            android:fillColor="#ffffffff"
-            android:pathData="m 455 -513 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 332 636 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 470 127 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -513 556 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -292 -72 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 142 354 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -406 -3 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 102 -462 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -427 -484 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 289 -147 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 469 196 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -526 -84 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 7 -233 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 418 175 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -374 341 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -100 28 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -350 -376 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 686 716 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 274 -291 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -195 -20 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -371 -118 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -160 119 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -344 -21 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 314 512 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -391 -193 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 183 -774 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 208 -335 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -570 -245 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 97 232 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 188 -360 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -260 195 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -204 -551 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 533 -380 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 34 -741 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -157 -219 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -322 185 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -14 -59 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -172 -738 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -251 -541 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 688 221 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -526 -121 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -30 -430 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -276 -272 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 291 -734 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -83 403 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 741 301 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -250 -289 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 306 -79 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 232 157 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -572 -605 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 527 -490 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -266 631 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 268 79 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 514 321 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 184 35 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 449 83 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -204 -53 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 89 -466 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -191 153 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -197 -723 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -338 -262 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -54 -427 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -68 80 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 75 354 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 360 -514 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -243 -133 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -398 -276 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 520 -65 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 265 -40 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -454 12 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -124 -201 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 260 -186 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -474 -507 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 640 -136 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 474 -10 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -426 -433 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 426 283 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -294 639 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -200 293 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 417 -742 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 526 494 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 554 416 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 477 24 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -628 -441 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 441 -527 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 585 -493 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -333 -353 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -235 145 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 197 -425 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -205 447 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -283 -183 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 733 -177 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -80 -54 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 452 537 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 25 -11 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -269 508 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -438 -345 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -553 389 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 269 220 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 696 -502 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 438 45 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -69 57 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -420 464 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -633 533 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 55 -211 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -251 -434 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 51 396 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -24 -526 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -387 205 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -675 282 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 388 534 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -52 380 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -462 -99 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m -741 269 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m -160 -239 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 421 740 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
 
 
         <path
             android:fillColor="#ffffffff"
-            android:pathData="m 363 -516 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+            android:pathData="m 694 -603 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 484 650 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -538 -697 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 175 43 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 482 595 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -281 446 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -178 -16 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 293 670 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 568 296 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 523 -382 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 593 -375 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -211 -91 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -531 360 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 8 -43 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -10 -333 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 251 332 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -353 609 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 348 -489 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 642 -611 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -783 -202 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -370 760 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -480 -694 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -688 -13 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -336 -107 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 336 -72 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 174 118 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 780 56 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 45 -701 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 531 700 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -757 546 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -651 323 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 217 580 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -592 571 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -647 -247 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 533 31 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 758 607 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -288 616 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -483 589 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -224 -787 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 354 -433 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m -272 520 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+
+        <path
+            android:fillColor="#ffffffff"
+            android:pathData="m 431 98 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
     </group>
     <group
         android:name="shape_layer_1"
         android:translateX="275"
-        android:translateY="330">
-        <group
-            android:name="sun">
-            <path
-                android:name="ellipse_path_1"
-                android:fillColor="#ffff8000"
-                android:pathData="m -20 0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0" />
-
-        </group>
+        android:translateY="385">
 
 
-
-        <group android:name="mercury_planet" >
+        <group android:name="mercury_planet">
             <group
+                android:name="mercury_orbit"
                 android:scaleX="0"
-                android:scaleY="0"
-                android:name="mercury_orbit">
+                android:scaleY="0">
                 <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
                     android:pathData="m -29.025 0
                     a 29.025,29.025 0 1,0 58.05,0
-                    a 29.025,29.025 0 1,0 -58.05,0"/>
+                    a 29.025,29.025 0 1,0 -58.05,0"
+                    android:strokeColor="#80ffffff"
+                    android:strokeWidth="4" />
             </group>
             <group
                 android:name="mercury"
                 android:scaleX="0"
                 android:scaleY="0"
-                android:translateX="29.025" >
+                android:translateX="29.025">
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ff607D8B"
@@ -362,24 +551,23 @@
         </group>
 
 
-
-        <group android:name="venus_planet" >
+        <group android:name="venus_planet">
             <group
+                android:name="venus_orbit"
                 android:scaleX="0"
-                android:scaleY="0"
-                android:name="venus_orbit">
+                android:scaleY="0">
                 <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
                     android:pathData="m -54.225 0
                     a 54.225,54.225 0 1,0 108.45,0
-                    a 54.225,54.225 0 1,0 -108.45,0"/>
+                    a 54.225,54.225 0 1,0 -108.45,0"
+                    android:strokeColor="#80ffffff"
+                    android:strokeWidth="4" />
             </group>
             <group
                 android:name="venus"
                 android:scaleX="0"
                 android:scaleY="0"
-                android:translateX="54.225" >
+                android:translateX="54.225">
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ffFFC107"
@@ -389,24 +577,23 @@
         </group>
 
 
-
-        <group android:name="earth_planet" >
+        <group android:name="earth_planet">
             <group
+                android:name="earth_orbit"
                 android:scaleX="0"
-                android:scaleY="0"
-                android:name="earth_orbit">
+                android:scaleY="0">
                 <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
                     android:pathData="m -75 0
                     a 75,75 0 1,0 150,0
-                    a 75,75 0 1,0 -150,0"/>
+                    a 75,75 0 1,0 -150,0"
+                    android:strokeColor="#80ffffff"
+                    android:strokeWidth="4" />
             </group>
             <group
                 android:name="earth"
                 android:scaleX="0"
                 android:scaleY="0"
-                android:translateX="75" >
+                android:translateX="75">
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ff0B5CE3"
@@ -414,7 +601,7 @@
 
                 <group
                     android:name="moon"
-                    android:translateX="13" >
+                    android:translateX="13">
                     <path
                         android:name="ellipse_path_1_2"
                         android:fillColor="#ffFFEB3B"
@@ -425,24 +612,23 @@
         </group>
 
 
-
-        <group android:name="mars_planet" >
+        <group android:name="mars_planet">
             <group
+                android:name="mars_orbit"
                 android:scaleX="0"
-                android:scaleY="0"
-                android:name="mars_orbit">
+                android:scaleY="0">
                 <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
                     android:pathData="m -114.3 0
                     a 114.3,114.3 0 1,0 228.6,0
-                    a 114.3,114.3 0 1,0 -228.6,0"/>
+                    a 114.3,114.3 0 1,0 -228.6,0"
+                    android:strokeColor="#80ffffff"
+                    android:strokeWidth="4" />
             </group>
             <group
                 android:name="mars"
                 android:scaleX="0"
                 android:scaleY="0"
-                android:translateX="114.3" >
+                android:translateX="114.3">
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ffFFA000"
@@ -452,24 +638,23 @@
         </group>
 
 
-
-        <group android:name="jupiter_planet" >
+        <group android:name="jupiter_planet">
             <group
+                android:name="jupiter_orbit"
                 android:scaleX="0"
-                android:scaleY="0"
-                android:name="jupiter_orbit">
+                android:scaleY="0">
                 <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
                     android:pathData="m -150.225 0
                     a 150.225,150.225 0 1,0 300.45,0
-                    a 150.225,150.225 0 1,0 -300.45,0"/>
+                    a 150.225,150.225 0 1,0 -300.45,0"
+                    android:strokeColor="#80ffffff"
+                    android:strokeWidth="4" />
             </group>
             <group
                 android:name="jupiter"
                 android:scaleX="0"
                 android:scaleY="0"
-                android:translateX="150.225" >
+                android:translateX="150.225">
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ffFF9800"
@@ -479,24 +664,23 @@
         </group>
 
 
-
-        <group android:name="saturn_planet" >
+        <group android:name="saturn_planet">
             <group
+                android:name="saturn_orbit"
                 android:scaleX="0"
-                android:scaleY="0"
-                android:name="saturn_orbit">
+                android:scaleY="0">
                 <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
                     android:pathData="m -220.425 0
                     a 220.425,220.425 0 1,0 440.85,0
-                    a 220.425,220.425 0 1,0 -440.85,0"/>
+                    a 220.425,220.425 0 1,0 -440.85,0"
+                    android:strokeColor="#80ffffff"
+                    android:strokeWidth="4" />
             </group>
             <group
                 android:name="saturn"
                 android:scaleX="0"
                 android:scaleY="0"
-                android:translateX="220.425" >
+                android:translateX="220.425">
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ffFFEB3B"
@@ -504,21 +688,25 @@
 
                 <path
                     android:name="ellipse_path_1_2"
-                    android:strokeWidth="7"
+                    android:pathData="m -30 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0"
                     android:strokeColor="#ffFBC02D"
-                    android:pathData="m -30 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0" />
+                    android:strokeWidth="7" />
                 <path
                     android:name="ellipse_path_1_3"
-                    android:strokeWidth="3"
+                    android:pathData="m -38 0 a 38,38 0 1,0 76,0 a 38,38 0 1,0 -76,0"
                     android:strokeColor="#ffFBC02D"
-                    android:pathData="m -38 0 a 38,38 0 1,0 76,0 a 38,38 0 1,0 -76,0" />
+                    android:strokeWidth="3" />
 
 
             </group>
         </group>
+        <group android:name="sun">
+            <path
+                android:name="ellipse_path_1"
+                android:fillColor="#ffff8000"
+                android:pathData="m -20 0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0" />
 
-
-
+        </group>
 
     </group>
 

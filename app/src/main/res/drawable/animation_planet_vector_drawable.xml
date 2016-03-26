@@ -91,5 +91,5 @@
 
     <target
         android:name="stars"
-        android:animation="@anim/animation_stars"/>
+        android:animation="@anim/animation_stars" />
 </animated-vector>

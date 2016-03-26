@@ -49,7 +49,6 @@ public class WallpaperMainService extends WallpaperService {
         @Override
         public void onDestroy() {
             super.onDestroy();
-            // remove listeners and callbacks here
         }
 
         @Override
