@@ -2,7 +2,7 @@
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:ordering="sequentially">
 
-    <set xmlns:android="http://schemas.android.com/apk/res/android"
+    <set
         android:ordering="together">
         <objectAnimator
             android:duration="2110"
@@ -19,7 +19,7 @@
             android:valueTo="0">
         </objectAnimator>
     </set>
-    <set xmlns:android="http://schemas.android.com/apk/res/android"
+    <set
         android:ordering="together">
         <objectAnimator
             android:duration="610"

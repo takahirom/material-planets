@@ -129,7 +129,7 @@ public class ZoomImageView extends AppCompatImageView {
             mScaleType = ScaleType.FIT_CENTER;
         }
         minScale = 1;
-        maxScale = 2;
+        maxScale = 1;
         superMinScale = SUPER_MIN_MULTIPLIER * minScale;
         superMaxScale = SUPER_MAX_MULTIPLIER * maxScale;
         setImageMatrix(matrix);
