@@ -335,6 +335,7 @@
         </group>
 
 
+
         <group android:name="mercury_planet" >
             <group
                 android:scaleX="0"
@@ -355,7 +356,7 @@
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ff607D8B"
-                    android:pathData="m -3.04 0 a 3.04,3.04 0 1,0 6.08,0 a 3.04,3.04 0 1,0 -6.08,0" />
+                    android:pathData="m -6.24 0 a 6.24,6.24 0 1,0 12.48,0 a 6.24,6.24 0 1,0 -12.48,0" />
 
             </group>
         </group>
