@@ -1,4 +1,4 @@
-![feature-graphic](https://raw.githubusercontent.com/takahirom/material-solar-system/master/art/Material%20Solar%20System-feature-graphic.png)
+![feature-graphic](https://raw.githubusercontent.com/takahirom/material-planets/master/art/Material%20Planets-feature-graphic.png)
 
 # Material Planets
 Material solar system planets live wallpaper app using AnimatedVectorDrawableCompat.
