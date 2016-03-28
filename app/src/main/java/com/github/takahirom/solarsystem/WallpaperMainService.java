@@ -90,12 +90,19 @@ public class WallpaperMainService extends WallpaperService {
             public void run() {
                 refresh();
                 handler.removeCallbacks(refreshRunnable);
-                handler.postDelayed(refreshRunnable, 33);
+                postRefresh();
             }
         };
 
+        private void postRefresh() {
+            handler.postDelayed(refreshRunnable, 33);
+        }
+
         private void refresh() {
             if (holder == null) {
+                return;
+            }
+            if (holder.isCreating()) {
                 return;
             }
             Canvas canvas = holder.lockCanvas();
@@ -110,15 +117,14 @@ public class WallpaperMainService extends WallpaperService {
         @Override
         public void onSurfaceCreated(SurfaceHolder holder) {
             super.onSurfaceCreated(holder);
-
-            handler.post(refreshRunnable);
+            postRefresh();
         }
 
         @Override
         public void onVisibilityChanged(boolean visible) {
             if (visible) {
                 handler.removeCallbacks(refreshRunnable);
-                handler.post(refreshRunnable);
+                postRefresh();
             } else {
                 handler.removeCallbacks(refreshRunnable);
             }
