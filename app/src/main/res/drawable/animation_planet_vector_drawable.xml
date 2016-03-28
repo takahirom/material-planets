@@ -81,6 +81,18 @@
     <target
         android:name="saturn"
         android:animation="@anim/animation_saturn_scale" />
+
+
+    <target
+        android:name="halley_orbit"
+        android:animation="@anim/animation_halley_orbit" />
+    <target
+        android:name="halley_planet"
+        android:animation="@anim/animation_halley_rotate" />
+    <target
+        android:name="halley"
+        android:animation="@anim/animation_halley_scale" />
+
     <target
         android:name="earth"
         android:animation="@anim/animation_grouping_1_01" />

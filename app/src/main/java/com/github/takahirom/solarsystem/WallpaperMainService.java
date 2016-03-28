@@ -117,10 +117,6 @@ public class WallpaperMainService extends WallpaperService {
         @Override
         public void onVisibilityChanged(boolean visible) {
             if (visible) {
-                final Animatable drawable = (Animatable) zoomImageView.getDrawable();
-                drawable.stop();
-                drawable.start();
-
                 handler.removeCallbacks(refreshRunnable);
                 handler.post(refreshRunnable);
             } else {
