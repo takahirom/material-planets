@@ -95,6 +95,9 @@ public class WallpaperMainService extends WallpaperService {
         };
 
         private void refresh() {
+            if (holder == null) {
+                return;
+            }
             Canvas canvas = holder.lockCanvas();
             if (canvas == null) {
                 return;
