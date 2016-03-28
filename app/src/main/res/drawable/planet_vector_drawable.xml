@@ -525,31 +525,31 @@
         android:translateY="385">
 
 
-        <group android:name="halley_planet"
-            android:translateX="720" >
-            <group
-                android:scaleX="0"
-                android:scaleY="0"
-                android:name="halley_orbit">
-                <path
-                    android:strokeColor="#20ffffff"
-                    android:strokeWidth="4"
-                    android:pathData="m -750 0
-                    a 750,750 0 1,0 1500,0
-                    a 750,750 0 1,0 -1500,0"/>
-            </group>
-            <group
-                android:name="halley"
-                android:scaleX="0"
-                android:scaleY="0"
-                android:translateX="750" >
-                <path
-                    android:name="ellipse_path_1_1"
-                    android:fillColor="#ffFFFFFF"
-                    android:pathData="m -6.4 0 a 6.4,6.4 0 1,0 12.8,0 a 6.4,6.4 0 1,0 -12.8,0" />
+        <!--<group android:name="halley_planet"-->
+            <!--android:translateX="720" >-->
+            <!--<group-->
+                <!--android:scaleX="0"-->
+                <!--android:scaleY="0"-->
+                <!--android:name="halley_orbit">-->
+                <!--<path-->
+                    <!--android:strokeColor="#20ffffff"-->
+                    <!--android:strokeWidth="4"-->
+                    <!--android:pathData="m -750 0-->
+                    <!--a 750,750 0 1,0 1500,0-->
+                    <!--a 750,750 0 1,0 -1500,0"/>-->
+            <!--</group>-->
+            <!--<group-->
+                <!--android:name="halley"-->
+                <!--android:scaleX="0"-->
+                <!--android:scaleY="0"-->
+                <!--android:translateX="750" >-->
+                <!--<path-->
+                    <!--android:name="ellipse_path_1_1"-->
+                    <!--android:fillColor="#ffFFFFFF"-->
+                    <!--android:pathData="m -6.4 0 a 6.4,6.4 0 1,0 12.8,0 a 6.4,6.4 0 1,0 -12.8,0" />-->
 
-            </group>
-        </group>
+            <!--</group>-->
+        <!--</group>-->
 
         <group android:name="mercury_planet" >
             <group

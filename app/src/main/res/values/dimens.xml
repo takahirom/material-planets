@@ -2,7 +2,7 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="vector_size_x">2000dp</dimen>
-    <dimen name="vector_size_y">2800dp</dimen>
+    <dimen name="vector_size_x">1000dp</dimen>
+    <dimen name="vector_size_y">1400dp</dimen>
     <dimen name="vector_show_size">300dp</dimen>
 </resources>
