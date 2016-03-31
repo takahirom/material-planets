@@ -523,153 +523,7 @@
         android:name="shape_layer_1"
         android:translateX="275"
         android:translateY="385">
-
-
-        <group android:name="mercury_planet" >
-            <group
-                android:scaleX="0"
-                android:scaleY="0"
-                android:name="mercury_orbit">
-                <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
-                    android:fillColor="#04ffffff"
-                    android:pathData="m -29.025 0
-                    a 29.025,29.025 0 1,0 58.05,0
-                    a 29.025,29.025 0 1,0 -58.05,0"/>
-            </group>
-            <group
-                android:name="mercury"
-                android:scaleX="0"
-                android:scaleY="0"
-                android:translateX="29.025" >
-                <path
-                    android:name="ellipse_path_1_1"
-                    android:fillColor="#ff607D8B"
-                    android:pathData="m -6.24 0 a 6.24,6.24 0 1,0 12.48,0 a 6.24,6.24 0 1,0 -12.48,0" />
-
-            </group>
-        </group>
-
-
-        <group android:name="venus_planet" >
-            <group
-                android:scaleX="0"
-                android:scaleY="0"
-                android:name="venus_orbit">
-                <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
-                    android:fillColor="#09ffffff"
-                    android:pathData="m -54.225 0
-                    a 54.225,54.225 0 1,0 108.45,0
-                    a 54.225,54.225 0 1,0 -108.45,0"/>
-            </group>
-            <group
-                android:name="venus"
-                android:scaleX="0"
-                android:scaleY="0"
-                android:translateX="54.225" >
-                <path
-                    android:name="ellipse_path_1_1"
-                    android:fillColor="#ffFFC107"
-                    android:pathData="m -7.6 0 a 7.6,7.6 0 1,0 15.2,0 a 7.6,7.6 0 1,0 -15.2,0" />
-
-            </group>
-        </group>
-
-
-        <group android:name="earth_planet" >
-            <group
-                android:scaleX="0"
-                android:scaleY="0"
-                android:name="earth_orbit">
-                <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
-                    android:fillColor="#0Cffffff"
-                    android:pathData="m -75 0
-                    a 75,75 0 1,0 150,0
-                    a 75,75 0 1,0 -150,0"/>
-            </group>
-            <group
-                android:name="earth"
-                android:scaleX="0"
-                android:scaleY="0"
-                android:translateX="75" >
-                <path
-                    android:name="ellipse_path_1_1"
-                    android:fillColor="#ff0B5CE3"
-                    android:pathData="m -8 0 a 8,8 0 1,0 16,0 a 8,8 0 1,0 -16,0" />
-
-                <group
-                    android:name="moon"
-                    android:translateX="13" >
-                    <path
-                        android:name="ellipse_path_1_2"
-                        android:fillColor="#ffFFEB3B"
-                        android:pathData="m -3 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
-                </group>
-
-            </group>
-        </group>
-
-
-        <group android:name="mars_planet" >
-            <group
-                android:scaleX="0"
-                android:scaleY="0"
-                android:name="mars_orbit">
-                <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
-                    android:fillColor="#13ffffff"
-                    android:pathData="m -114.3 0
-                    a 114.3,114.3 0 1,0 228.6,0
-                    a 114.3,114.3 0 1,0 -228.6,0"/>
-            </group>
-            <group
-                android:name="mars"
-                android:scaleX="0"
-                android:scaleY="0"
-                android:translateX="114.3" >
-                <path
-                    android:name="ellipse_path_1_1"
-                    android:fillColor="#ffFFA000"
-                    android:pathData="m -6.64 0 a 6.64,6.64 0 1,0 13.28,0 a 6.64,6.64 0 1,0 -13.28,0" />
-
-            </group>
-        </group>
-
-
-        <group android:name="jupiter_planet" >
-            <group
-                android:scaleX="0"
-                android:scaleY="0"
-                android:name="jupiter_orbit">
-                <path
-                    android:strokeColor="#80ffffff"
-                    android:strokeWidth="4"
-                    android:fillColor="#19ffffff"
-                    android:pathData="m -150.225 0
-                    a 150.225,150.225 0 1,0 300.45,0
-                    a 150.225,150.225 0 1,0 -300.45,0"/>
-            </group>
-            <group
-                android:name="jupiter"
-                android:scaleX="0"
-                android:scaleY="0"
-                android:translateX="150.225" >
-                <path
-                    android:name="ellipse_path_1_1"
-                    android:fillColor="#ffFF9800"
-                    android:pathData="m -20.72 0 a 20.72,20.72 0 1,0 41.44,0 a 20.72,20.72 0 1,0 -41.44,0" />
-
-            </group>
-        </group>
-
-
-        <group android:name="saturn_planet" >
+        <group>        <group android:name="saturn_planet" >
             <group
                 android:scaleX="0"
                 android:scaleY="0"
@@ -677,16 +531,16 @@
                 <path
                     android:strokeColor="#80ffffff"
                     android:strokeWidth="4"
-                    android:fillColor="#25ffffff"
-                    android:pathData="m -220.425 0
-                    a 220.425,220.425 0 1,0 440.85,0
-                    a 220.425,220.425 0 1,0 -440.85,0"/>
+                    android:fillColor="#29ffffff"
+                    android:pathData="m -242.4675 0
+                    a 242.4675,242.4675 0 1,0 484.935,0
+                    a 242.4675,242.4675 0 1,0 -484.935,0"/>
             </group>
             <group
                 android:name="saturn"
                 android:scaleX="0"
                 android:scaleY="0"
-                android:translateX="220.425" >
+                android:translateX="242.4675" >
                 <path
                     android:name="ellipse_path_1_1"
                     android:fillColor="#ffFFEB3B"
@@ -706,6 +560,305 @@
             </group>
         </group>
 
+
+            <group android:name="jupiter_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="jupiter_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#1Effffff"
+                        android:pathData="m -180.27 0
+                    a 180.27,180.27 0 1,0 360.54,0
+                    a 180.27,180.27 0 1,0 -360.54,0"/>
+                </group>
+                <group
+                    android:name="jupiter"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="180.27" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ffFFAB40"
+                        android:pathData="m -20.72 0 a 20.72,20.72 0 1,0 41.44,0 a 20.72,20.72 0 1,0 -41.44,0" />
+
+                </group>
+            </group>
+
+
+            <group android:name="mars_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="mars_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#17ffffff"
+                        android:pathData="m -137.16 0
+                    a 137.16,137.16 0 1,0 274.32,0
+                    a 137.16,137.16 0 1,0 -274.32,0"/>
+                </group>
+                <group
+                    android:name="mars"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="137.16" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ffFF6E40"
+                        android:pathData="m -9.96 0 a 9.96,9.96 0 1,0 19.92,0 a 9.96,9.96 0 1,0 -19.92,0" />
+
+                </group>
+            </group>
+
+
+            <group android:name="earth_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="earth_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#10ffffff"
+                        android:pathData="m -97.5 0
+                    a 97.5,97.5 0 1,0 195.0,0
+                    a 97.5,97.5 0 1,0 -195.0,0"/>
+                </group>
+                <group
+                    android:name="earth"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="97.5" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ff0B5CE3"
+                        android:pathData="m -12.0 0 a 12.0,12.0 0 1,0 24.0,0 a 12.0,12.0 0 1,0 -24.0,0" />
+
+                    <group
+                        android:name="moon"
+                        android:translateX="17" >
+                        <path
+                            android:name="ellipse_path_1_2"
+                            android:fillColor="#ffFFEB3B"
+                            android:pathData="m -3 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+                    </group>
+
+                </group>
+            </group>
+
+
+            <group android:name="venus_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="venus_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#0Bffffff"
+                        android:pathData="m -65.07 0
+                    a 65.07,65.07 0 1,0 130.14,0
+                    a 65.07,65.07 0 1,0 -130.14,0"/>
+                </group>
+                <group
+                    android:name="venus"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="65.07" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ffFFC107"
+                        android:pathData="m -11.4 0 a 11.4,11.4 0 1,0 22.8,0 a 11.4,11.4 0 1,0 -22.8,0" />
+
+                </group>
+            </group>
+
+
+
+            <group android:name="saturn_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="saturn_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#29ffffff"
+                        android:pathData="m -242.4675 0
+                    a 242.4675,242.4675 0 1,0 484.935,0
+                    a 242.4675,242.4675 0 1,0 -484.935,0"/>
+                </group>
+                <group
+                    android:name="saturn"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="242.4675" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ffFFEB3B"
+                        android:pathData="m -18.88 0 a 18.88,18.88 0 1,0 37.76,0 a 18.88,18.88 0 1,0 -37.76,0" />
+
+                    <path
+                        android:name="ellipse_path_1_2"
+                        android:strokeWidth="7"
+                        android:strokeColor="#ffFBC02D"
+                        android:pathData="m -30 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0" />
+                    <path
+                        android:name="ellipse_path_1_3"
+                        android:strokeWidth="3"
+                        android:strokeColor="#ffFBC02D"
+                        android:pathData="m -38 0 a 38,38 0 1,0 76,0 a 38,38 0 1,0 -76,0" />
+
+                </group>
+            </group>
+
+
+            <group android:name="jupiter_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="jupiter_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#1Effffff"
+                        android:pathData="m -180.27 0
+                    a 180.27,180.27 0 1,0 360.54,0
+                    a 180.27,180.27 0 1,0 -360.54,0"/>
+                </group>
+                <group
+                    android:name="jupiter"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="180.27" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ffFFAB40"
+                        android:pathData="m -20.72 0 a 20.72,20.72 0 1,0 41.44,0 a 20.72,20.72 0 1,0 -41.44,0" />
+
+                </group>
+            </group>
+
+
+            <group android:name="mars_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="mars_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#17ffffff"
+                        android:pathData="m -137.16 0
+                    a 137.16,137.16 0 1,0 274.32,0
+                    a 137.16,137.16 0 1,0 -274.32,0"/>
+                </group>
+                <group
+                    android:name="mars"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="137.16" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ffFF6E40"
+                        android:pathData="m -9.96 0 a 9.96,9.96 0 1,0 19.92,0 a 9.96,9.96 0 1,0 -19.92,0" />
+
+                </group>
+            </group>
+
+
+            <group android:name="earth_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="earth_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#10ffffff"
+                        android:pathData="m -97.5 0
+                    a 97.5,97.5 0 1,0 195.0,0
+                    a 97.5,97.5 0 1,0 -195.0,0"/>
+                </group>
+                <group
+                    android:name="earth"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="97.5" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ff0B5CE3"
+                        android:pathData="m -12.0 0 a 12.0,12.0 0 1,0 24.0,0 a 12.0,12.0 0 1,0 -24.0,0" />
+
+                    <group
+                        android:name="moon"
+                        android:translateX="17" >
+                        <path
+                            android:name="ellipse_path_1_2"
+                            android:fillColor="#ffFFEB3B"
+                            android:pathData="m -3 0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+                    </group>
+
+                </group>
+            </group>
+
+
+            <group android:name="venus_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="venus_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#0Bffffff"
+                        android:pathData="m -65.07 0
+                    a 65.07,65.07 0 1,0 130.14,0
+                    a 65.07,65.07 0 1,0 -130.14,0"/>
+                </group>
+                <group
+                    android:name="venus"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="65.07" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ffFFC107"
+                        android:pathData="m -11.4 0 a 11.4,11.4 0 1,0 22.8,0 a 11.4,11.4 0 1,0 -22.8,0" />
+
+                </group>
+            </group>
+
+
+            <group android:name="mercury_planet" >
+                <group
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:name="mercury_orbit">
+                    <path
+                        android:strokeColor="#80ffffff"
+                        android:strokeWidth="4"
+                        android:fillColor="#05ffffff"
+                        android:pathData="m -31.9275 0
+                    a 31.9275,31.9275 0 1,0 63.855,0
+                    a 31.9275,31.9275 0 1,0 -63.855,0"/>
+                </group>
+                <group
+                    android:name="mercury"
+                    android:scaleX="0"
+                    android:scaleY="0"
+                    android:translateX="31.9275" >
+                    <path
+                        android:name="ellipse_path_1_1"
+                        android:fillColor="#ff607D8B"
+                        android:pathData="m -9.36 0 a 9.36,9.36 0 1,0 18.72,0 a 9.36,9.36 0 1,0 -18.72,0" />
+
+                </group>
+            </group>        </group>
         <group android:name="sun">
             <path
                 android:name="ellipse_path_1"

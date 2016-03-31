@@ -4,14 +4,14 @@
     <set
         android:ordering="together">
         <objectAnimator
-            android:duration="1000"
+            android:duration="548"
             android:propertyName="scaleX"
             android:interpolator="@android:anim/decelerate_interpolator"
             android:valueFrom="0"
             android:valueTo="0">
         </objectAnimator>
         <objectAnimator
-            android:duration="1000"
+            android:duration="548"
             android:propertyName="scaleY"
             android:interpolator="@android:anim/decelerate_interpolator"
             android:valueFrom="0"
@@ -21,14 +21,14 @@
     <set
         android:ordering="together">
         <objectAnimator
-            android:duration="1152"
+            android:duration="1365"
             android:propertyName="scaleX"
             android:interpolator="@android:anim/decelerate_interpolator"
             android:valueFrom="0"
             android:valueTo="1.0">
         </objectAnimator>
         <objectAnimator
-            android:duration="1152"
+            android:duration="1365"
             android:propertyName="scaleY"
             android:interpolator="@android:anim/decelerate_interpolator"
             android:valueFrom="0"

@@ -5,14 +5,14 @@
     <set
         android:ordering="together">
         <objectAnimator
-            android:duration="2095"
+            android:duration="1433"
             android:propertyName="scaleX"
             android:interpolator="@android:anim/decelerate_interpolator"
             android:valueFrom="0"
             android:valueTo="0">
         </objectAnimator>
         <objectAnimator
-            android:duration="2095"
+            android:duration="1433"
             android:propertyName="scaleY"
             android:interpolator="@android:anim/decelerate_interpolator"
             android:valueFrom="0"
@@ -36,6 +36,5 @@
             android:valueTo="1.0">
         </objectAnimator>
     </set>
-
 </set>
         

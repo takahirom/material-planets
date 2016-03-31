@@ -2,48 +2,16 @@
     android:drawable="@drawable/planet_vector_drawable">
 
 
-    <target
-        android:name="mercury_orbit"
-        android:animation="@anim/animation_mercury_orbit" />
-    <target
-        android:name="mercury_planet"
-        android:animation="@anim/animation_mercury_rotate" />
-    <target
-        android:name="mercury"
-        android:animation="@anim/animation_mercury_scale" />
-
 
     <target
-        android:name="venus_orbit"
-        android:animation="@anim/animation_venus_orbit" />
+        android:name="saturn_orbit"
+        android:animation="@anim/animation_saturn_orbit" />
     <target
-        android:name="venus_planet"
-        android:animation="@anim/animation_venus_rotate" />
+        android:name="saturn_planet"
+        android:animation="@anim/animation_saturn_rotate" />
     <target
-        android:name="venus"
-        android:animation="@anim/animation_venus_scale" />
-
-
-    <target
-        android:name="earth_orbit"
-        android:animation="@anim/animation_earth_orbit" />
-    <target
-        android:name="earth_planet"
-        android:animation="@anim/animation_earth_rotate" />
-    <target
-        android:name="earth"
-        android:animation="@anim/animation_earth_scale" />
-
-
-    <target
-        android:name="mars_orbit"
-        android:animation="@anim/animation_mars_orbit" />
-    <target
-        android:name="mars_planet"
-        android:animation="@anim/animation_mars_rotate" />
-    <target
-        android:name="mars"
-        android:animation="@anim/animation_mars_scale" />
+        android:name="saturn"
+        android:animation="@anim/animation_saturn_scale" />
 
 
     <target
@@ -58,15 +26,47 @@
 
 
     <target
-        android:name="saturn_orbit"
-        android:animation="@anim/animation_saturn_orbit" />
+        android:name="mars_orbit"
+        android:animation="@anim/animation_mars_orbit" />
     <target
-        android:name="saturn_planet"
-        android:animation="@anim/animation_saturn_rotate" />
+        android:name="mars_planet"
+        android:animation="@anim/animation_mars_rotate" />
     <target
-        android:name="saturn"
-        android:animation="@anim/animation_saturn_scale" />
+        android:name="mars"
+        android:animation="@anim/animation_mars_scale" />
 
+
+    <target
+        android:name="earth_orbit"
+        android:animation="@anim/animation_earth_orbit" />
+    <target
+        android:name="earth_planet"
+        android:animation="@anim/animation_earth_rotate" />
+    <target
+        android:name="earth"
+        android:animation="@anim/animation_earth_scale" />
+
+
+    <target
+        android:name="venus_orbit"
+        android:animation="@anim/animation_venus_orbit" />
+    <target
+        android:name="venus_planet"
+        android:animation="@anim/animation_venus_rotate" />
+    <target
+        android:name="venus"
+        android:animation="@anim/animation_venus_scale" />
+
+
+    <target
+        android:name="mercury_orbit"
+        android:animation="@anim/animation_mercury_orbit" />
+    <target
+        android:name="mercury_planet"
+        android:animation="@anim/animation_mercury_rotate" />
+    <target
+        android:name="mercury"
+        android:animation="@anim/animation_mercury_scale" />
 
     <!--<target-->
         <!--android:name="halley_orbit"-->
