@@ -4,6 +4,7 @@ import android.graphics.Canvas;
 import android.graphics.drawable.Animatable;
 import android.os.Handler;
 import android.service.wallpaper.WallpaperService;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.view.ContextThemeWrapper;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -55,26 +56,26 @@ public class WallpaperMainService extends WallpaperService {
         public void onTouchEvent(MotionEvent event) {
             super.onTouchEvent(event);
             String action = "";
-            switch (event.getAction()) {
-                case MotionEvent.ACTION_DOWN:
-                    action = "ACTION_DOWN";
-                    break;
-                case MotionEvent.ACTION_UP:
-                    action = "ACTION_UP";
-                    break;
-                case MotionEvent.ACTION_MOVE:
-                    action = "ACTION_MOVE";
-                    break;
-                case MotionEvent.ACTION_CANCEL:
-                    action = "ACTION_CANCEL";
-                    break;
-            }
-
-            Log.v("MotionEvent",
-                    "action = " + action + ", " +
-                            "count:" + event.getPointerCount() + ", " +
-                            "x = " + String.valueOf(event.getX()) + ", " +
-                            "y = " + String.valueOf(event.getY()));
+//            switch (event.getAction()) {
+//                case MotionEvent.ACTION_DOWN:
+//                    action = "ACTION_DOWN";
+//                    break;
+//                case MotionEvent.ACTION_UP:
+//                    action = "ACTION_UP";
+//                    break;
+//                case MotionEvent.ACTION_MOVE:
+//                    action = "ACTION_MOVE";
+//                    break;
+//                case MotionEvent.ACTION_CANCEL:
+//                    action = "ACTION_CANCEL";
+//                    break;
+//            }
+//
+//            Log.v("MotionEvent",
+//                    "action = " + action + ", " +
+//                            "count:" + event.getPointerCount() + ", " +
+//                            "x = " + String.valueOf(event.getX()) + ", " +
+//                            "y = " + String.valueOf(event.getY()));
 
             zoomImageView.dispatchTouchEvent(event);
         }
@@ -109,7 +110,7 @@ public class WallpaperMainService extends WallpaperService {
             if (canvas == null) {
                 return;
             }
-            canvas.drawColor(getResources().getColor(R.color.background_material_dark));
+            canvas.drawColor(ContextCompat.getColor(WallpaperMainService.this, R.color.colorBackground));
             zoomImageView.draw(canvas);
             holder.unlockCanvasAndPost(canvas);
         }
