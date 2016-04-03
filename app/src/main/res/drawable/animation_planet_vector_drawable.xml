@@ -68,6 +68,10 @@
         android:name="mercury"
         android:animation="@anim/animation_mercury_scale" />
 
+    <target
+        android:animation="@anim/animation_shooting_star"
+        android:name="shooting_star"/>
+
     <!--<target-->
         <!--android:name="halley_orbit"-->
         <!--android:animation="@anim/animation_halley_orbit" />-->
